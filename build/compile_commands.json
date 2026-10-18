@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Jogador.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Jogador.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Jogador.cpp",
+  "output": "CMakeFiles/logica.dir/src/Jogador.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Mapa.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Mapa.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Mapa.cpp",
+  "output": "CMakeFiles/logica.dir/src/Mapa.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Mapas.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Mapas.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Mapas.cpp",
+  "output": "CMakeFiles/logica.dir/src/Mapas.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Inimigo.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Inimigo.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Inimigo.cpp",
+  "output": "CMakeFiles/logica.dir/src/Inimigo.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Obstaculo.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Obstaculo.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Obstaculo.cpp",
+  "output": "CMakeFiles/logica.dir/src/Obstaculo.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Ataques.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Ataques.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Ataques.cpp",
+  "output": "CMakeFiles/logica.dir/src/Ataques.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Torre.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Torre.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Torre.cpp",
+  "output": "CMakeFiles/logica.dir/src/Torre.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/FabricaInimigos.cpp.o -c /home/euae/PUC/eng_software/td_full/src/FabricaInimigos.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/FabricaInimigos.cpp",
+  "output": "CMakeFiles/logica.dir/src/FabricaInimigos.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/GerenciadorOndas.cpp.o -c /home/euae/PUC/eng_software/td_full/src/GerenciadorOndas.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/GerenciadorOndas.cpp",
+  "output": "CMakeFiles/logica.dir/src/GerenciadorOndas.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Valores.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Valores.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Valores.cpp",
+  "output": "CMakeFiles/logica.dir/src/Valores.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++  -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/logica.dir/src/Partida.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Partida.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Partida.cpp",
+  "output": "CMakeFiles/logica.dir/src/Partida.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++ -DVALORES_TXT=\\\"/home/euae/PUC/eng_software/td_full/valores.txt\\\" -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/td.dir/src/main.cpp.o -c /home/euae/PUC/eng_software/td_full/src/main.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/main.cpp",
+  "output": "CMakeFiles/td.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++ -DVALORES_TXT=\\\"/home/euae/PUC/eng_software/td_full/valores.txt\\\" -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/td.dir/src/Jogo.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Jogo.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Jogo.cpp",
+  "output": "CMakeFiles/td.dir/src/Jogo.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++ -DVALORES_TXT=\\\"/home/euae/PUC/eng_software/td_full/valores.txt\\\" -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/td.dir/src/Estados.cpp.o -c /home/euae/PUC/eng_software/td_full/src/Estados.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/src/Estados.cpp",
+  "output": "CMakeFiles/td.dir/src/Estados.cpp.o"
+},
+{
+  "directory": "/home/euae/PUC/eng_software/td_full/build",
+  "command": "/usr/bin/c++ -DVALORES_TXT=\\\"/home/euae/PUC/eng_software/td_full/valores.txt\\\" -I/home/euae/PUC/eng_software/td_full/src -std=gnu++17 -Wall -Wextra -o CMakeFiles/testes.dir/tests/testes.cpp.o -c /home/euae/PUC/eng_software/td_full/tests/testes.cpp",
+  "file": "/home/euae/PUC/eng_software/td_full/tests/testes.cpp",
+  "output": "CMakeFiles/testes.dir/tests/testes.cpp.o"
+}
+]

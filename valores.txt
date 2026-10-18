@@ -1,0 +1,113 @@
+# Lane Defense: valores do jogo.
+# O jogo lê este arquivo no começo de cada partida. Mude um número, volte ao
+# menu e comece outra partida para testar. Não precisa compilar de novo.
+#
+# Unidades: tempos em segundos, velocidades em casas por segundo, alcances em
+# casas. Um "#" começa um comentário. Uma chave desconhecida ou faltando é erro.
+
+jogador.vida                 20
+
+ondas.bonus                  25    # ouro no fim de cada onda (quando o último inimigo entra)
+ondas.inicio                 10    # espera antes da onda 1
+ondas.intervalo               8    # espera entre o fim de uma onda e a próxima
+ondas.espacamento           0.8    # entre dois inimigos da mesma entrada
+
+# Inimigos. Os valores são os do Normal. A dificuldade ajusta vida e velocidade.
+# Velocidade máxima efetiva: 10 casas/s (uma casa por tick).
+# Tempo para cruzar o mapa 1 (106 casas): normal 30 s, rápido 18 s, tanque 53 s.
+inimigo.normal.vida          10    # o
+inimigo.normal.velocidade   3.5
+inimigo.normal.dano           1    # HP tirado do Jogador; também o golpe no obstáculo
+inimigo.normal.ouro           3
+
+inimigo.rapido.vida           6    # r
+inimigo.rapido.velocidade   6.0
+inimigo.rapido.dano           1
+inimigo.rapido.ouro           4
+
+inimigo.tanque.vida          50    # O
+inimigo.tanque.velocidade   2.0
+inimigo.tanque.dano           5
+inimigo.tanque.ouro          12
+
+# Torres. "recarga" é o tempo entre dois ataques. O alcance é um círculo.
+torre.simples.custo          60    # S: dano em um alvo
+torre.simples.alcance         4
+torre.simples.recarga       0.5
+torre.simples.dano            2
+
+torre.area.custo            100    # A: dano em todos no alcance
+torre.area.alcance            3
+torre.area.recarga          1.2
+torre.area.dano               2
+
+torre.lenta.custo            50    # L: pouco dano, deixa o alvo lento
+torre.lenta.alcance           4
+torre.lenta.recarga         1.0
+torre.lenta.dano              1
+torre.lenta.lentidao         50    # % da velocidade que o alvo perde
+torre.lenta.duracao           2
+
+torre.longa.custo            90    # X: alcance longo, ataque lento, muito dano
+torre.longa.alcance          10
+torre.longa.recarga         2.5
+torre.longa.dano             15
+
+obstaculo.custo              25    # =: bloqueia o caminho até quebrar
+obstaculo.vida               20
+obstaculo.intervaloAtaque     1    # entre dois golpes de um mesmo inimigo
+
+# Dificuldade: % da vida e da velocidade dos inimigos, e o ouro inicial.
+dificuldade.facil.vida       75
+dificuldade.facil.velocidade 85
+dificuldade.facil.ouro      250
+
+dificuldade.normal.vida     100
+dificuldade.normal.velocidade 100
+dificuldade.normal.ouro     200
+
+dificuldade.dificil.vida    130
+dificuldade.dificil.velocidade 115
+dificuldade.dificil.ouro    150
+
+# Ondas: uma linha por onda, em ordem. Cada grupo é tipo + quantidade
+# + @entrada (opcional, padrão 1). N = normal, R = rápido, T = tanque.
+# Os grupos da mesma entrada entram um depois do outro. Entradas diferentes
+# entram ao mesmo tempo. As entradas são numeradas em ordem de leitura do mapa
+# (de cima para baixo, da esquerda para a direita).
+
+# Ouro extra no começo, por mapa, somado ao ouro da dificuldade. Mapas com
+# mais entradas precisam de mais torres cedo.
+mapa1.ouro    0
+mapa2.ouro  100
+mapa3.ouro  100
+
+# Mapa 1: uma entrada (direita).
+mapa1.onda  N8
+mapa1.onda  N12
+mapa1.onda  N10 R5
+mapa1.onda  R12 N8
+mapa1.onda  T2 N12
+mapa1.onda  T3 R10
+mapa1.onda  N15 R10 T3
+mapa1.onda  T6 R15 N15
+
+# Mapa 2: entrada 1 em cima, entrada 2 à direita. Cerca de 1,3x o mapa 1.
+mapa2.onda  N5@1 N5@2
+mapa2.onda  N8@1 N8@2
+mapa2.onda  N7@1 R3@1 N6@2 R4@2
+mapa2.onda  R8@1 N5@1 R8@2 N5@2
+mapa2.onda  T1@1 N8@1 T2@2 N8@2
+mapa2.onda  T2@1 R7@1 T2@2 R6@2
+mapa2.onda  N10@1 R6@1 T2@1 N10@2 R7@2 T2@2
+mapa2.onda  T4@1 R10@1 N10@1 T4@2 R10@2 N10@2
+
+# Mapa 3: entrada 1 em cima, 2 à direita, 3 embaixo. Cerca de 1,6x o mapa 1.
+mapa3.onda  N5@1 N4@2 N4@3
+mapa3.onda  N7@1 N6@2 N6@3
+mapa3.onda  N6@1 R3@1 N5@2 R3@2 N5@3 R2@3
+mapa3.onda  R7@1 N5@1 R6@2 N4@2 R6@3 N4@3
+mapa3.onda  T1@1 N7@1 T1@2 N6@2 T1@3 N6@3
+mapa3.onda  T2@1 R6@1 T2@2 R5@2 T1@3 R5@3
+mapa3.onda  N8@1 R6@1 T2@1 N8@2 R5@2 T2@2 N8@3 R5@3 T1@3
+mapa3.onda  T3@1 R8@1 N8@1 T3@2 R8@2 N8@2 T4@3 R8@3 N8@3

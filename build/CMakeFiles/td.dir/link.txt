@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/td.dir/link.d CMakeFiles/td.dir/src/main.cpp.o CMakeFiles/td.dir/src/Jogo.cpp.o CMakeFiles/td.dir/src/Estados.cpp.o -o td  liblogica.a -lncurses -lform

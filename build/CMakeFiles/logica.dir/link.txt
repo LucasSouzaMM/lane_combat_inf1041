@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblogica.a CMakeFiles/logica.dir/src/Jogador.cpp.o CMakeFiles/logica.dir/src/Mapa.cpp.o CMakeFiles/logica.dir/src/Mapas.cpp.o CMakeFiles/logica.dir/src/Inimigo.cpp.o CMakeFiles/logica.dir/src/Obstaculo.cpp.o CMakeFiles/logica.dir/src/Ataques.cpp.o CMakeFiles/logica.dir/src/Torre.cpp.o CMakeFiles/logica.dir/src/FabricaInimigos.cpp.o CMakeFiles/logica.dir/src/GerenciadorOndas.cpp.o CMakeFiles/logica.dir/src/Valores.cpp.o CMakeFiles/logica.dir/src/Partida.cpp.o
+/usr/bin/ranlib liblogica.a

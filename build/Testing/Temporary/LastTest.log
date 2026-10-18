@@ -1,0 +1,19 @@
+Start testing: Oct 18 14:39 -03
+----------------------------------------------------------
+1/1 Testing: testes
+1/1 Test: testes
+Command: "/home/euae/PUC/eng_software/td_full/build/testes"
+Directory: /home/euae/PUC/eng_software/td_full/build
+"testes" start time: Oct 18 14:39 -03
+Output:
+----------------------------------------------------------
+todos os testes passaram
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"testes" end time: Oct 18 14:39 -03
+"testes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 14:39 -03

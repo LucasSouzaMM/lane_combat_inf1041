@@ -1,0 +1,6 @@
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/logica.dir
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/td.dir
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/testes.dir
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/test.dir
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/edit_cache.dir
+/home/euae/PUC/eng_software/td_full/build/CMakeFiles/rebuild_cache.dir

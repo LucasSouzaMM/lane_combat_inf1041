@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/euae/PUC/eng_software/td_full/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

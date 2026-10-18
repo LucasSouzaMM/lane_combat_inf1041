@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/testes.dir/link.d CMakeFiles/testes.dir/tests/testes.cpp.o -o testes  liblogica.a
